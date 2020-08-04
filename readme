@@ -1,1 +1,1 @@
-spring boot + redission 实现分布式锁。
+spring boot + redisson 配置方式实现 实现分布式锁。
