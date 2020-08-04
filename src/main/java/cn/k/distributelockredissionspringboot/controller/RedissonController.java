@@ -18,6 +18,8 @@ public class RedissonController {
 
     @RequestMapping("/king")
     public String hello(){
+
+
         log.info("进入方法");
         RLock order = redissonClient.getLock("order");
         try {
